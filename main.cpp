@@ -396,6 +396,7 @@ int main() {
 #ifndef __APPLE__
     Screen screen = {300, 400};
 #else
+    freopen("input.txt", "r", stdin);
     Screen screen = {MAXN, MAXN};
 #endif
     int n;
